@@ -46,3 +46,8 @@
   border-radius: 4px;
   font-weight: bold;
 }
+
+.item-servico img:hover{
+  background-color: #1e2d3f;
+}
+
