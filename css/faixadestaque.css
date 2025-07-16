@@ -1,47 +1,48 @@
 .faixa-destaque {
   background-color: #f4a300;
-  padding: 1px 10px;
-}
-
-.conteudo-faixa {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
   gap: 20px;
+  padding: 10px 30px;
+  flex-wrap: wrap;
 }
 
-.conteudo-faixa img {
-  height: 40px;
+.faixa-destaque img {
+  height: 30px;
 }
 
-.texto-faixa {
+.faixa-destaque p {
   flex: 1;
+  margin: 0;
+  font-size: 10px;
   color: #222;
   text-align: center;
+  justify-content: center;
 }
 
-.texto-faixa h3 {
-  font-size: 18px;
+.faixa-destaque strong {
+  display: block;
+  font-size: 15px;
+  color: #1e2d3f;
+  margin-bottom: 3px;
   font-weight: bold;
-  color: #333;
   text-transform: uppercase;
 }
 
-.texto-faixa p {
-  font-size: 14px;
-  margin-top: 5px;
+.faixa-destaque span {
+  font-size: 13px;
+  color: #222;
 }
 
-.botao-escuro {
+.faixa-destaque .botao-escuro {
   background-color: #1e2d3f;
-  color: #fff;
-  padding: 10px 20px;
+  color: white;
+  padding: 8px 18px;
   border-radius: 4px;
   text-decoration: none;
   font-weight: bold;
-}
-
-.botao-escuro:hover {
-  background-color: #16222a;
+  font-size: 14px;
+  align-items: center;
+  justify-items: center;
 }
