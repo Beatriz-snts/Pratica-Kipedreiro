@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.topo-contato {
+  background-color: #f4a300;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  color: #000;
+  font-size: 14px;
+}
+
+.topo-contato button {
+  background: none;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}

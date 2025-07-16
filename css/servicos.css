@@ -1,0 +1,48 @@
+.servicos {
+  background-color: #fff;
+  padding: 5rem 5%;
+  text-align: center;
+}
+
+.grid-servicos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.item-servico {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+.item-servico img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px #0000001a;
+}
+
+.item-servico h4 {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #222;
+}
+
+.botao-servicos {
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.botao-escuro {
+  background-color: #1e2d3f;
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
